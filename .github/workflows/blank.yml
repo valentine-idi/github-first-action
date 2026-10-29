@@ -1,0 +1,11 @@
+name: first-action
+on: workflow_dispatch
+
+jobs:
+  first-job:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: start
+        run: echo "Start"
+      - name: end
+        run: echo "End"
